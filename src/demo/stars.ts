@@ -6,8 +6,6 @@
 var svgElm: SVGElement;
 var mgu: MyGameUtil;
 var gcc: GifCaptureCanvas;
-var image = new Image();
-var ticks = 0;
 
 window.onload = () => {
 	svgElm = createElementNS('svg');
@@ -45,12 +43,7 @@ function randomInt(from: number, to: number) {
 function update() {
 	requestAnimationFrame(update);
 	mgu.updateActors();
-	if (ticks % 3 === 0) {
-		var svgXml = new XMLSerializer().serializeToString(svgElm);
-		image.src = "data:image/svg+xml;base64," + btoa(svgXml);
-		gcc.capture(image);
-	}
-	ticks++;
+	gcc.captureSvg(svgElm);
 }
 
 class Star {
