@@ -1,0 +1,9 @@
+﻿body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: white;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    width: 98%;
+    text-align: center;
+}
