@@ -10,7 +10,7 @@ test a collistion between two SVG paths.
 
 ### Usage
 
-See the [src/simple.ts](https://github.com/abagames/SVGPathCollider/blob/master/src/simple.ts)
+See the [src/demo/simple.ts](https://github.com/abagames/SVGPathCollider/blob/master/src/demo/simple.ts)
 
 ### Acknowledgement
 
