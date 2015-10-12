@@ -25,6 +25,9 @@ class MyGameUtil {
 		this.onMouseDown = this.onMouseDown.bind(this);
 		this.onMouseMove = this.onMouseMove.bind(this);
 		this.onMouseUp = this.onMouseUp.bind(this);
+		this.onTouchStart = this.onTouchStart.bind(this);
+		this.onTouchMove = this.onTouchMove.bind(this);
+		this.onTouchEnd = this.onTouchEnd.bind(this);
 		window.addEventListener('mousedown', this.onMouseDown);
 		window.addEventListener('mousemove', this.onMouseMove);
 		window.addEventListener('mouseup', this.onMouseUp);
