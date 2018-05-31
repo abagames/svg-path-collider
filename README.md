@@ -1,7 +1,6 @@
-SVGPathCollider
-======================
+# svg-path-collider
 
-test a collistion between two SVG paths.
+Test a collision between svg paths.
 
 ### Demos
 
@@ -10,13 +9,12 @@ test a collistion between two SVG paths.
 
 ### Usage
 
-See the [src/demo/simple.ts](https://github.com/abagames/SVGPathCollider/blob/master/src/demo/simple.ts)
+See the [src/samples/simple.ts](https://github.com/abagames/SVGPathCollider/blob/master/src/samples/simple.ts)
 
 ### Acknowledgement
 
 * Libraries
 
-[lodash](https://lodash.com/) /
 [sat-js](https://github.com/jriecken/sat-js)
 
 * Articles
@@ -24,7 +22,3 @@ See the [src/demo/simple.ts](https://github.com/abagames/SVGPathCollider/blob/ma
 [Collision detection with SVG](http://www.inkfood.com/collision-detection-with-svg/)
 
 [Get bounding box of element accounting for its transform](http://stackoverflow.com/questions/10623809/get-bounding-box-of-element-accounting-for-its-transform)
-
-License
-----------
-MIT

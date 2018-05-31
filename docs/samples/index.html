@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, height=device-height,
+    user-scalable=no, initial-scale=1, maximum-scale=1">
+
+  <title>svg-path-collider demo</title>
+  <link rel="stylesheet" href="index.css" type="text/css" />
+</head>
+
+<body>
+  <script>
+    var sampleName = window.location.search.substring(1);
+    sampleName = sampleName.replace(/\W/g, '');
+    document.title = "svg-path-collider demo - " + sampleName;
+    var script = document.createElement('script');
+    script.src = sampleName + '.js';
+    document.body.appendChild(script);
+  </script>
+</body>
+
+</html>

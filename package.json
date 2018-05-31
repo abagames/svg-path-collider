@@ -1,12 +1,20 @@
 {
-  "name": "SVGPathCollider",
+  "name": "svg-path-collider",
   "version": "1.0.0",
-  "description": "test a collistion between two SVG paths",
-  "dependencies": {},
+  "description": "test collision between svg paths",
+  "scripts": {
+    "start": "webpack-serve",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "sat": "^0.7.1"
+  },
   "devDependencies": {
-    "grunt-este-watch": "^0.1.18",
-    "grunt": "^0.4.5",
-    "grunt-typescript": "^0.7.0"
+    "awesome-typescript-loader": "^5.0.0",
+    "typescript": "^2.8.4",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4",
+    "webpack-serve": "^1.0.2"
   },
   "author": "ABA",
   "license": "MIT"
