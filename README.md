@@ -1,10 +1,12 @@
-# svg-path-collider
+# svg-path-collider ([Demo](https://abagames.github.io/svg-path-collider/samples/index.html?stars))
 
 Test a collision between svg paths.
 
-### Demos
+![stars](https://abagames.github.io/svg-path-collider/samples/stars.gif)
 
-![stars](http://abagames.sakura.ne.jp/15/SVGPathCollider/app/stars.gif)
+### Samples
+
+[simple](https://abagames.github.io/svg-path-collider/samples/index.html?simple) /
 [stars](http://abagames.sakura.ne.jp/15/SVGPathCollider/app/stars.html)
 
 ### Usage
