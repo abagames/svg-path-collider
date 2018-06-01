@@ -1,5 +1,5 @@
-declare namespace SAT {
-  class Vector {
+declare module "sat" {
+  export class Vector {
     x: number;
     y: number;
     constructor(x?: number, y?: number);
@@ -36,11 +36,13 @@ declare namespace SAT {
     angleTo(other: Vector);
     distanceTo(other: Vector);
   }
-  class Circle {
+
+  export class Circle {
     pos: Vector;
     constructor(pos?: Vector, radius?: number);
   }
-  class Polygon {
+
+  export class Polygon {
     pos: Vector;
     constructor(pos?: Vector, vectors?: Vector[]);
     setAngle(angle: number);
@@ -48,11 +50,13 @@ declare namespace SAT {
     setPoints(points: Vector[]);
     points: Vector[];
   }
-  class Box {
+
+  export class Box {
     constructor(pos?: Vector, width?: number, height?: number);
     toPolygon(): Polygon;
   }
-  class Response {
+
+  export class Response {
     a;
     b;
     overlap: number;
@@ -61,16 +65,24 @@ declare namespace SAT {
     aInB: boolean;
     bInA: boolean;
   }
-  function testCircleCircle(a: Circle, b: Circle, response?: Response);
-  function testCirclePolygon(
+
+  export function testCircleCircle(a: Circle, b: Circle, response?: Response);
+
+  export function testCirclePolygon(
     circle: Circle,
     polygon: Polygon,
     response?: Response
   );
-  function testPolygonCircle(
+
+  export function testPolygonCircle(
     polygon: Polygon,
     circle: Circle,
     response?: Response
   );
-  function testPolygonPolygon(a: Polygon, b: Polygon, response?: Response);
+
+  export function testPolygonPolygon(
+    a: Polygon,
+    b: Polygon,
+    response?: Response
+  );
 }
