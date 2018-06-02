@@ -7,7 +7,8 @@ Test a collision between svg paths.
 ### Samples
 
 [simple](https://abagames.github.io/svg-path-collider/samples/index.html?simple) /
-[stars](http://abagames.sakura.ne.jp/15/SVGPathCollider/app/stars.html)
+[stars](https://abagames.github.io/svg-path-collider/samples/index.html?stars) /
+[with_svgjs](https://abagames.github.io/svg-path-collider/samples/index.html?with_svgjs)
 
 ### Usage
 

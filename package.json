@@ -7,7 +7,8 @@
     "build": "webpack"
   },
   "dependencies": {
-    "sat": "^0.7.1"
+    "sat": "^0.7.1",
+    "svgjs": "^2.6.2"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^5.0.0",
